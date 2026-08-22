@@ -6,11 +6,16 @@ int main(){
     cin>>t;
 
     while(t--){
-        int n;
+        long long n;
         cin>>n;
 
         int ans=0;
-        cin>>ans;
+        for(long long i=1;;i++){
+            if(n%i!=0){
+                ans=i-1;
+                break;
+            }
+        }
 
         
         cout<<ans<<endl;
