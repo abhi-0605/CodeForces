@@ -1,0 +1,5 @@
+@"
+node_modules/
+.cph/
+.vscode/
+"@ | Out-File -Encoding utf8 .gitignore
