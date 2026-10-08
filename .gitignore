@@ -1,5 +1,5 @@
-@"
 node_modules/
-.cph/
+.env
 .vscode/
-"@ | Out-File -Encoding utf8 .gitignore
+dist/
+.git_corrupted/
